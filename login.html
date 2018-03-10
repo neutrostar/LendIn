@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <script>
+  function redirection(){
+  var name = doument.getElementById("email").value;
+
+  var password = document.getElementById("pwd").value;
+  if(name=="test")&&(password=="123"){
+    window.location="main.html";
+  }
+  else{
+    document.getElementById("wrong").innerHTML="Wrong username or password";
+  }
+}
+  </script>
+
+  <title>LendIn-Your P2P loans solution specialists</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<!--<style>
+</style> -->
+<link rel="stylesheet" type="text/css" href="lendin.css">
+
+</head>
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+  <nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#myPage"><img src="logo.png" height = 55px/></a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="home.html#about">About</a></li>
+        <li><a href="home.html#borrowers">Borrowers</a></li>
+        <li><a href="home.html#lenders">Lenders</a></li>
+        <li><a href="home.html#lenders">Legal</a></li>
+        <li><a href="home.html#contact">Contact</a></li>
+        <li><a href="#">Log In</a><li>
+      </ul>
+    </div>
+  </div>
+</nav><br><br><br>
+<center>
+<div id="container-fluid">
+  <div id="jumbotron-fluid">
+    <p style="font-size:50px">Login to LendIn</p><small>Your P2P loan and investement specialists</small></h2>
+    <p id="wrong"></p>
+  </div>
+</div>
+</center>
+<center>
+<form>
+
+    <label for="email">Email address:</label>
+    <input type="text"  id="email" ><br><br>
+
+
+    <label for="pwd">Password:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <input type="password"  id="pwd">
+
+  <div class="checkbox">
+    <label><input type="checkbox"> Remember me</label>
+  </div>
+  <a href="main.html"><input type="button" class="btn btn-default"  value="Submit"></a>
+
+</form>
+</center><br><br>
+<br><br><br><br>
+<div height="1368px" width="768px">
+    <div id="swag">
+      <center>
+        <p>Desgined by Apoorv Shrivastav<br>For the course Entrepreneurship and Innovation,UTA012<br>Thapar University, Patiala</p>
+      </center>
+    </div>
+  </div>
+
+</body>
+</html>
